@@ -1,0 +1,52 @@
+body {
+ 	
+ 	background-image: url("http://d3s14dc60t4hpy.cloudfront.net/wp-content/uploads/2017/06/Trivia.jpg");
+ }
+
+ 	p{
+
+		font-family: 'Russo One', sans-serif;
+ 		color: white;
+ 	}
+
+ 	#display,
+	#buttons
+ 	{
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+		align-items: center;
+ 		color: white;
+ 		margin: 0 auto;
+ 	}
+
+
+ 	.name{
+
+ 		
+ 		font-size: 35px;
+ 		font-weight: bold;
+ 	}
+
+ 	#buttons{
+ 		width: 20%;
+ 	}
+
+
+ 	#true{
+
+ 		font-family: 'Russo One', sans-serif;
+ 		color: white;
+ 	}
+
+ 	#false{
+
+ 		font-family: 'Russo One', sans-serif;
+ 		color: white;
+ 	}
+
+ 	.results{
+		text-align: center;;
+ 		font-family: 'Russo One', sans-serif;
+ 		color: white;
+ 	}
